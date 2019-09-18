@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThoughtWorks.MerchantsGuide.Helpers\ThoughtWorks.MerchantsGuide.Helpers.csproj" />
+    <ProjectReference Include="..\ThoughtWorks.MerchantsGuide\ThoughtWorks.MerchantsGuide.Core.csproj" />
+  </ItemGroup>
+
+</Project>

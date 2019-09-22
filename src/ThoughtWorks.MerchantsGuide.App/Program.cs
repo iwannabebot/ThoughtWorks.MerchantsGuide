@@ -22,7 +22,8 @@ namespace ThoughtWorks.MerchantsGuide.App
             }
             else
             {
-                MerchantsCalculator.Calculate(input["syntax"].ToString());
+                MerchantsConsole.WriteLine(
+                    MerchantsLanguageService.Calculate(input["syntax"].ToString()));
             }
         }
     }

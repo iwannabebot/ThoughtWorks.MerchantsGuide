@@ -5,7 +5,7 @@ using ThoughtWorks.MerchantsGuide.LanguageService;
 
 namespace ThoughtWorks.MerchantsGuide.App
 {
-    public static class MerchantsCalculator
+    public static class MerchantsLanguageService
     {
         readonly static MerchantsLexer Lexer = new MerchantsLexer();
         readonly static MerchantsCompiler Compiler = new MerchantsCompiler();

@@ -2,7 +2,7 @@
   "profiles": {
     "ThoughtWorks.MerchantsGuide.App": {
       "commandName": "Project",
-      "commandLineArgs": "--file=\"../../../../../tests/ThoughtWorks.MerchantsGuide.Test/testinput.txt\""
+      "commandLineArgs": "--file=\"../../../../../tests/ThoughtWorks.MerchantsGuide.Test/testinput.twt\""
     }
   }
 }

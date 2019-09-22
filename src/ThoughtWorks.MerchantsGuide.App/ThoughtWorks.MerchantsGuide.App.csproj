@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ThoughtWorks.MerchantsGuide.Helpers\ThoughtWorks.MerchantsGuide.Helpers.csproj" />
-    <ProjectReference Include="..\ThoughtWorks.MerchantsGuide\ThoughtWorks.MerchantsGuide.Core.csproj" />
+    <ProjectReference Include="..\ThoughtWorks.MerchantsGuide.LanguageService\ThoughtWorks.MerchantsGuide.LanguageService.csproj" />
+    <ProjectReference Include="..\ThoughtWorks.MerchantsGuide.Utility\ThoughtWorks.MerchantsGuide.Utility.csproj" />
   </ItemGroup>
 
 </Project>

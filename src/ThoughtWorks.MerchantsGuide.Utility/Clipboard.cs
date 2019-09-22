@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 
-namespace ThoughtWorks.MerchantsGuide.Helpers
+namespace ThoughtWorks.MerchantsGuide.Utility
 {
     public static class Clipbard
     {
@@ -42,6 +42,7 @@ namespace ThoughtWorks.MerchantsGuide.Helpers
 
     #region internals
 
+    /// (c)
     /// https://github.com/SimonCropp/TextCopy/blob/master/license.txt
 
     static class WindowsClipboard

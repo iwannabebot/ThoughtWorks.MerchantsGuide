@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ThoughtWorks.MerchantsGuide.LanguageService\ThoughtWorks.MerchantsGuide.LanguageService.csproj" />
+    <ProjectReference Include="..\..\src\ThoughtWorks.MerchantsGuide.Utility\ThoughtWorks.MerchantsGuide.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
